@@ -1,0 +1,16 @@
+Package: flickrr
+Title: An R interface to the flickr REST API
+Version: 0.0.0.9000
+Authors@R: person("Jim", "Hester", email = "james.f.hester@gmail.com", role = c("aut", "cre"))
+Description: A simple R wrapper for the flickr REST API.
+Depends:
+    R (>= 3.2.0)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+  httr
+Remotes:
+  hadley/httr#373
+VignetteBuilder: knitr
+RoxygenNote: 5.0.1
