@@ -1,3 +1,5 @@
+[![Travis-CI Build Status](https://travis-ci.org/jimhester/flickrr.svg?branch=master)](https://travis-ci.org/jimhester/flickrr)
+
 # flickrr
 This is a minimal R client for the [flickr API](https://www.flickr.com/services/api/).
 
