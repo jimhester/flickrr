@@ -13,8 +13,6 @@ flickr_POST(method, ...)
 \item{method}{The flickr API method to use \url{https://www.flickr.com/services/api/}.}
 
 \item{...}{additional arguments passed to \code{\link[httr]{VERB}}.}
-
-\item{query}{list of query parameters to use in the request.}
 }
 \description{
 \code{flickr_GET} performs a GET request, \code{flickr_POST} performs a POST

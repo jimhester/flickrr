@@ -67,7 +67,6 @@ flickr_VERB <- function(verb) {
 #' request. Use \code{\link{authenticate}} to authenticate your session prior
 #' to connecting.
 #' @param method The flickr API method to use \url{https://www.flickr.com/services/api/}.
-#' @param query list of query parameters to use in the request.
 #' @param ... additional arguments passed to \code{\link[httr]{VERB}}.
 #' @rdname flickr_request
 #' @examples
