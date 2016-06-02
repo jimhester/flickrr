@@ -20,6 +20,8 @@ request. Use \code{\link{authenticate}} to authenticate your session prior
 to connecting.
 }
 \examples{
-flicker_GET()
+\dontrun{
+flickr_GET("flickr.photo.search", text = "UseR2016")
+}
 }
 

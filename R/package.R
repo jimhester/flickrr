@@ -70,7 +70,9 @@ flickr_VERB <- function(verb) {
 #' @param ... additional arguments passed to \code{\link[httr]{VERB}}.
 #' @rdname flickr_request
 #' @examples
-#' flicker_GET()
+#' \dontrun{
+#' flickr_GET("flickr.photo.search", text = "UseR2016")
+#' }
 #' @export
 flickr_GET <- flickr_VERB("GET")
 
