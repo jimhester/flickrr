@@ -12,5 +12,4 @@ Imports:
   httr
 Remotes:
   hadley/httr#373
-VignetteBuilder: knitr
 RoxygenNote: 5.0.1
