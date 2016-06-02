@@ -4,14 +4,11 @@
 \alias{authenticate}
 \title{Authenticate a session}
 \usage{
-authenticate(permission = c("read", "write", "delete"), force = FALSE,
-  key = the$key, secret = the$secret)
+authenticate(permission = c("read", "write", "delete"), key = the$key,
+  secret = the$secret)
 }
 \arguments{
 \item{permission}{The desired permission for the session.}
-
-\item{force}{Force requesting a new token, the default is to use the cached
-token if available.}
 
 \item{key}{The API key, a default one is provided, but please register a new
 one yourself if you will be doing many requests.}

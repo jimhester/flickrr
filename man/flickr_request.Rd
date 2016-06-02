@@ -5,20 +5,23 @@
 \alias{flickr_POST}
 \title{Perform a flickr request}
 \usage{
-flickr_GET(method, query, ...)
+flickr_GET(method, ...)
 
-flickr_POST(method, query, ...)
+flickr_POST(method, ...)
 }
 \arguments{
 \item{method}{The flickr API method to use \url{https://www.flickr.com/services/api/}.}
 
-\item{query}{list of query parameters to use in the request.}
-
 \item{...}{additional arguments passed to \code{\link[httr]{VERB}}.}
+
+\item{query}{list of query parameters to use in the request.}
 }
 \description{
 \code{flickr_GET} performs a GET request, \code{flickr_POST} performs a POST
 request. Use \code{\link{authenticate}} to authenticate your session prior
 to connecting.
+}
+\examples{
+flicker_GET()
 }
 
